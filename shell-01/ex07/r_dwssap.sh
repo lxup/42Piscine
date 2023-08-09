@@ -1,0 +1,1 @@
+cat /etc/passwd | sed 's/\([^:]*:[^:]*:[^:]*:[^:]*:\)[^:]*:/\1/' | awk 'NR % 2 == 0' | cut -d : -f1 | rev | sort -r | awk "NR>=$FT_LINE1 && NR<+$FT_LINE2" | awk 1 ORS=', ' | sed 's/\(.*\), /\1./g' | tr -d "\n"
