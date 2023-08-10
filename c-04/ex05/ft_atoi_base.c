@@ -12,12 +12,6 @@
 
 #include <stdio.h>
 
-int	ft_atoi(char *str)
-{
-	int	i;
-	while (str[i] != '\0' && (str[
-}
-
 int	ft_strlen(char *str)
 {
 	int	i;
@@ -28,7 +22,21 @@ int	ft_strlen(char *str)
 	return (i);
 }
 
-int     checkbase(char *str)
+int     ft_index_in_base(char c, char *base)
+{
+	int i;
+
+	i = 0;
+	while (base[i] != '\0')
+	{
+		if (c == base[i])
+			return (i);
+		i++;
+	}
+	return (0);
+}
+
+int     ft_checkbase(char *str)
 {
 	int		i;
 	int		j;
@@ -58,13 +66,32 @@ int     checkbase(char *str)
 
 int	ft_atoi_base(char *str, char *base)
 {
-	int	nu;
+	int	i;
+	int sign;
+	int nu;
 	int	base_len;
 
 	base_len = ft_strlen(base);
-	if (!checkbase(base) || base_len <= 1)
+	if (!ft_checkbase(base) || base_len <= 1)
 		return (0);
-	
+	i = 0;
+	while (str[i] != '\0' && (str[i] == ' ' || str[i] == '\f' || str[i] == '\n'
+			|| str[i] == '\r' || str[i] == '\t' || str[i] == '\v'))
+		i++;
+	sign = 1;
+	while (str[i] != '\0' && (str[i] == '-' || str[i] == '+'))
+	{
+		if (str[i] == '-')
+			sign *= -1;
+		i++;
+	}
+	nb = 0;
+	while (str[i] != '\0' && str[i] >= '0' && str[i] <= '9')
+	{
+		nb = nb * base_len + ft_index_in_base(str[i], base);
+		i++;
+	}
+	return (nb * sign);
 }
 
 int	main(int argc, char **argv)
