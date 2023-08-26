@@ -13,8 +13,10 @@
 
 </div>
 
-<h2 align="center">❗❗ DISCLAIMER : YOU ARE HERE TO LEARN, DON'T COPY ❗❗</h2>
-<h3 align="center">(⚠️ you can get caught by the BOCAL ☠️)</h3>
+<h2 align="center">
+❗❗ DISCLAIMER : YOU ARE HERE TO LEARN, DON'T COPY ❗❗</br>
+(⚠️ you can get caught by the BOCAL ☠️)
+</h2>
 
  ## MY SCORES
 ### C Piscine modules
