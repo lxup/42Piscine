@@ -66,7 +66,7 @@
 | Project                                                         | Tried ? | Passed ? | Final mark | Comments  |
 | --------------------------------------------------------------- | ------- | -------- | ---------- | --------- |
 | [RUSH00](https://github.com/xmesky/42Piscine/tree/main/rush-00) | ✅      | ✅       |  120/100  | success (w/ bonus)      |
-| [RUSH01](https://github.com/xmesky/42Piscine/tree/main/rush-01) | ✅      | ✅       |  115/100  | success (up to 7x7), to do the 9x9 make prefill for obious values    |
+| [RUSH01](https://github.com/xmesky/42Piscine/tree/main/rush-01) | ✅      | ✅       |  115/100  | success (up to 7x7), to do the 9x9 make prefill for obvious values    |
 | [RUSH02](https://github.com/xmesky/42Piscine/tree/main/rush-02) | ✅      | ✅       |  125/100  | success (w/ bonus)      |
 | [BSQ](https://github.com/xmesky/42Piscine/tree/main/BSQ)        | ✅      | ✅       |  💯      | success (w/ Moulinette) |
 
