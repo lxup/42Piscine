@@ -6,11 +6,11 @@
 /*   By: lquehec <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/07 19:50:52 by lquehec           #+#    #+#             */
-/*   Updated: 2023/08/08 15:45:33 by lquehec          ###   ########.fr       */
+/*   Updated: 2023/08/10 21:33:22 by lquehec          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+//#include <stdio.h>
 #include <unistd.h>
 
 void	ft_putchar(char c)
@@ -55,8 +55,8 @@ int	checkbase(char *str)
 
 void	ft_putnbr_base(int nbr, char *base)
 {
-	int	nu;
-	int	base_len;
+	long	nu;
+	int		base_len;
 
 	base_len = ft_strlen(base);
 	if (!checkbase(base) || base_len <= 1)
@@ -71,12 +71,12 @@ void	ft_putnbr_base(int nbr, char *base)
 		ft_putnbr_base(nu / base_len, base);
 	ft_putchar(base[nu % base_len]);
 }
-
+/*
 int	main(void)
 {
 	char	*base;
 
 	base = "0123456789ABCDEF";
-	ft_putnbr_base(5943, base);
+	ft_putnbr_base(-2147483648, base);
 	return (0);
 }

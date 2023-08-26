@@ -6,7 +6,7 @@
 /*   By: lquehec <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/02 21:22:11 by lquehec           #+#    #+#             */
-/*   Updated: 2023/08/02 21:22:14 by lquehec          ###   ########.fr       */
+/*   Updated: 2023/08/07 18:55:23 by lquehec          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,4 +30,11 @@ void	ft_putnbr(int nb)
 	if (nu / 10 != 0)
 		ft_putnbr(nu / 10);
 	ft_putchar(nu % 10 + 48);
+}
+
+int	main()
+{
+	ft_putnbr(5849);
+
+	return (0);
 }

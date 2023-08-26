@@ -6,7 +6,7 @@
 /*   By: lquehec <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/04 09:53:00 by lquehec           #+#    #+#             */
-/*   Updated: 2023/08/04 14:50:00 by lquehec          ###   ########.fr       */
+/*   Updated: 2023/08/07 14:36:38 by lquehec          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <stdio.h>
@@ -16,7 +16,7 @@ char	*ft_strcpy(char *dest, char *src)
 	int	i;
 
 	i = 0;
-	while(src[i] != '\0')
+	while (src[i] != '\0')
 	{
 		dest[i] = src[i];
 		i++;
@@ -24,7 +24,7 @@ char	*ft_strcpy(char *dest, char *src)
 	dest[i] = '\0';
 	return (dest);
 }
-
+/*
 int	main()
 {
 	char	dest[4];
@@ -37,4 +37,4 @@ int	main()
 	
 	return (0);
 
-}
+}*/

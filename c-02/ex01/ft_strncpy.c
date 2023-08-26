@@ -6,7 +6,7 @@
 /*   By: lquehec <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/04 11:42:38 by lquehec           #+#    #+#             */
-/*   Updated: 2023/08/04 14:56:15 by lquehec          ###   ########.fr       */
+/*   Updated: 2023/08/07 14:38:11 by lquehec          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <unistd.h>
@@ -17,19 +17,19 @@ char	*ft_strncpy(char *dest, char *src, unsigned int n)
 	unsigned int	i;
 
 	i = 0;
-	while(src[i] != '\0' && i < n)
+	while (src[i] != '\0' && i < n)
 	{
 		dest[i] = src[i];
 		i++;
 	}
-	while(i < n)
+	while (i < n)
 	{
 		dest[i] = '\0';
 		i++;
 	}
 	return (dest);
 }
-
+/*
 int	main()
 {
 	char	dest[5];
@@ -42,4 +42,4 @@ int	main()
 
 	return 0;
 	
-}
+}*/

@@ -6,12 +6,12 @@
 /*   By: lquehec <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/06 23:10:47 by lquehec           #+#    #+#             */
-/*   Updated: 2023/08/07 16:41:27 by lquehec          ###   ########.fr       */
+/*   Updated: 2023/08/08 18:38:16 by lquehec          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <string.h>
-#include <stdio.h>
+//#include <string.h>
+//#include <stdio.h>
 
 char	*ft_strstr(char *str, char *to_find)
 {
@@ -20,7 +20,7 @@ char	*ft_strstr(char *str, char *to_find)
 
 	i = 0;
 	j = 0;
-	if (!*str)
+	if (!*to_find)
 		return (str);
 	while (str[i] != '\0')
 	{

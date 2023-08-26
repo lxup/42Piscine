@@ -1,18 +1,30 @@
-#include <unistd.h>
-#include <stdio.h>
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_putstr_non_printable.c                          :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: lquehec <marvin@42.fr>                     +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/08/07 14:53:56 by lquehec           #+#    #+#             */
+/*   Updated: 2023/08/07 14:59:35 by lquehec          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-void    ft_putchar(char c)
+#include <unistd.h>
+//#include <stdio.h>
+
+void	ft_putchar(char c)
 {
-    write(1, &c, 1);
+	write(1, &c, 1);
 }
 
 void	ft_print_hexa(unsigned char c)
 {
-	char *hexa;
+	char	*hexa;
 
 	hexa = "0123456789abcdef";
-	ft_putchar(&hexa[c / 16]);
-	ft_putchar(&hexa[c % 16]);
+	ft_putchar(hexa[c / 16]);
+	ft_putchar(hexa[c % 16]);
 }
 
 void	ft_putstr_non_printable(char *str)
@@ -21,7 +33,7 @@ void	ft_putstr_non_printable(char *str)
 	{
 		if (*str < ' ' || *str > '~')
 		{
-			ft_putchar("\\");
+			write(1, "\\", 1);
 			ft_print_hexa(*str);
 		}
 		else
@@ -29,11 +41,11 @@ void	ft_putstr_non_printable(char *str)
 		++str;
 	}
 }
-
-void	main()
+/*
+int	main()
 {
-    char    text[] = "Coucou\ntu vas bien?";
+    char    text[] = "Coucou\vtu vas bien?";
     ft_putstr_non_printable(text);
-    printf("OUTPUT: %s\n", text);
+    //printf("OUTPUT: %s\n", text);
     return (0);
-}
+}*/

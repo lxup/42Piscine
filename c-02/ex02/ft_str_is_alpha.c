@@ -6,11 +6,11 @@
 /*   By: lquehec <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/04 12:34:17 by lquehec           #+#    #+#             */
-/*   Updated: 2023/08/06 15:50:28 by lquehec          ###   ########.fr       */
+/*   Updated: 2023/08/07 14:39:31 by lquehec          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+//#include <stdio.h>
 
 int	ft_is_upercase(char c)
 {
@@ -38,11 +38,11 @@ int	ft_str_is_alpha(char *str)
 	}
 	return (1);
 }
-
+/*
 int	main(void)
 {
 	char	*text;
 
-	text = "TEST5";
+	text = "TEST";
 	printf("OUTPUT: %d", ft_str_is_alpha(text));
-}
+}*/

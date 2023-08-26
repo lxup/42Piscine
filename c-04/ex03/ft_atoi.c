@@ -6,12 +6,13 @@
 /*   By: lquehec <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/07 18:58:15 by lquehec           #+#    #+#             */
-/*   Updated: 2023/08/07 19:29:02 by lquehec          ###   ########.fr       */
+/*   Updated: 2023/08/09 18:46:08 by lquehec          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <stdlib.h>
+//#include <stdio.h>
+//#include <stdlib.h>
+//#include <unistd.h>
 
 int	ft_atoi(char *str)
 {
@@ -38,15 +39,20 @@ int	ft_atoi(char *str)
 	}
 	return (nb * sign);
 }
-
+/*
 int	main(int argc, char **argv)
 {
 	int	x;
 	int	y;
 
+	if (argc != 2)
+	{
+		write(2, "Invalid arguments number\n", 25);
+		return (1);
+	}
 	x = ft_atoi(argv[1]);
 	y = atoi(argv[1]);
 	printf("OUTPUT: %d\n", x);
 	printf("ORIGINAL: %d\n", y);
 	return (0);
-}
+}*/

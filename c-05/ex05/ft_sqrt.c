@@ -6,18 +6,18 @@
 /*   By: lquehec <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/09 00:26:55 by lquehec           #+#    #+#             */
-/*   Updated: 2023/08/09 01:32:55 by lquehec          ###   ########.fr       */
+/*   Updated: 2023/08/14 14:33:18 by lquehec          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+//#include <stdio.h>
 
 int	ft_sqrt(int nb)
 {
 	int	i;
-	
+
 	i = 0;
-	while (i * i <= nb)
+	while (i * i <= nb && i <= 46340)
 	{
 		if (i * i == nb)
 			return (i);
@@ -25,9 +25,9 @@ int	ft_sqrt(int nb)
 	}
 	return (0);
 }
-
+/*
 int	main(void)
 {
 	printf("OUTPUT: %d\n", ft_sqrt(1600000000));
 	return (0);
-}
+}*/

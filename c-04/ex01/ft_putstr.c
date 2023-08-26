@@ -6,7 +6,7 @@
 /*   By: lquehec <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/07 18:27:57 by lquehec           #+#    #+#             */
-/*   Updated: 2023/08/07 18:30:21 by lquehec          ###   ########.fr       */
+/*   Updated: 2023/08/09 18:42:59 by lquehec          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,18 +19,17 @@ void	ft_putchar(char c)
 
 void	ft_putstr(char *str)
 {
-	while(*str)
+	while (*str)
 	{
 		ft_putchar(*str);
 		++str;
 	}
 }
-
-int	main()
+/*
+int	main(void)
 {
 	char	text[] = "salut kheyyys";
 
 	ft_putstr(text);
-
 	return (0);
-}
+}*/

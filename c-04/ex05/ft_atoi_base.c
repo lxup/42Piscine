@@ -6,11 +6,12 @@
 /*   By: lquehec <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/08 15:23:51 by lquehec           #+#    #+#             */
-/*   Updated: 2023/08/08 15:44:58 by lquehec          ###   ########.fr       */
+/*   Updated: 2023/08/09 21:55:51 by lquehec          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+//#include <stdio.h>
+#include <unistd.h>
 
 int	ft_strlen(char *str)
 {
@@ -22,9 +23,9 @@ int	ft_strlen(char *str)
 	return (i);
 }
 
-int     ft_index_in_base(char c, char *base)
+int	ft_index_in_base(char c, char *base)
 {
-	int i;
+	int	i;
 
 	i = 0;
 	while (base[i] != '\0')
@@ -36,10 +37,10 @@ int     ft_index_in_base(char c, char *base)
 	return (0);
 }
 
-int     ft_checkbase(char *str)
+int	ft_checkbase(char *str)
 {
-	int		i;
-	int		j;
+	int	i;
+	int	j;
 
 	i = 0;
 	if (!str[i])
@@ -50,7 +51,7 @@ int     ft_checkbase(char *str)
 		if (str[i] == '+' || str[i] == '-')
 			return (0);
 		if (str[i] == ' ' || str[i] == '\f' || str[i] == '\n'
-                        || str[i] == '\r' || str[i] == '\t' || str[i] == '\v')
+			|| str[i] == '\r' || str[i] == '\t' || str[i] == '\v')
 			return (0);
 		while (j < i)
 		{
@@ -64,15 +65,27 @@ int     ft_checkbase(char *str)
 	return (1);
 }
 
+int	ft_is_on_base(char c, char *base)
+{
+	int	i;
+
+	i = 0;
+	while (base[i] != '\0')
+	{
+		if (base[i] == c)
+			return (1);
+		i++;
+	}
+	return (0);
+}
+
 int	ft_atoi_base(char *str, char *base)
 {
 	int	i;
-	int sign;
-	int nu;
-	int	base_len;
+	int	sign;
+	int	nb;
 
-	base_len = ft_strlen(base);
-	if (!ft_checkbase(base) || base_len <= 1)
+	if (!ft_checkbase(base) || ft_strlen(base) <= 1)
 		return (0);
 	i = 0;
 	while (str[i] != '\0' && (str[i] == ' ' || str[i] == '\f' || str[i] == '\n'
@@ -86,14 +99,14 @@ int	ft_atoi_base(char *str, char *base)
 		i++;
 	}
 	nb = 0;
-	while (str[i] != '\0' && str[i] >= '0' && str[i] <= '9')
+	while (str[i] != '\0' && ft_is_on_base(str[i], base))
 	{
-		nb = nb * base_len + ft_index_in_base(str[i], base);
+		nb = nb * ft_strlen(base) + ft_index_in_base(str[i], base);
 		i++;
 	}
 	return (nb * sign);
 }
-
+/*
 int	main(int argc, char **argv)
 {
 	int	output;
@@ -105,6 +118,5 @@ int	main(int argc, char **argv)
 	}
 	output = ft_atoi_base(argv[1], argv[2]);
 	printf("OUTPUT: %d\n", output);
-
 	return (0);
-}
+}*/

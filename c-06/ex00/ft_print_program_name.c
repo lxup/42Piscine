@@ -6,7 +6,7 @@
 /*   By: lquehec <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/09 22:06:10 by lquehec           #+#    #+#             */
-/*   Updated: 2023/08/09 22:13:50 by lquehec          ###   ########.fr       */
+/*   Updated: 2023/08/10 14:29:06 by lquehec          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,9 +19,9 @@ void	ft_putchar(char c)
 
 int	main(int argc, char **argv)
 {
-	(void)argc;
 	int	i;
 
+	(void)argc;
 	i = 0;
 	while (argv[0][i] != '\0')
 	{
