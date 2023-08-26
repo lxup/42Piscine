@@ -16,7 +16,6 @@
 # include <stdlib.h>
 # include <sys/stat.h>
 # include <fcntl.h>
-# include <stdio.h>
 
 # define DEFAULT_DICT "dicts/numbers.dict"
 

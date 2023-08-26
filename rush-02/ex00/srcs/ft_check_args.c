@@ -12,12 +12,26 @@
 
 #include "ft_header.h"
 
+int	ft_is_contain_number(char *str)
+{
+	int	i;
+
+	i = 0;
+	while (str[i])
+	{
+		if (ft_is_number(str[i]))
+			return (1);
+		i++;
+	}
+	return (0);
+}
+
 int	ft_check_nbr(char *nbr)
 {
 	int		i;
 	int		sign;
 
-	if (ft_strlen(nbr) == 0)
+	if (ft_strlen(nbr) == 0 || !ft_is_contain_number(nbr))
 		return (0);
 	i = 0;
 	while (ft_is_whitespace(nbr[i]))
