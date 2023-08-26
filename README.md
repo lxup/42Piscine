@@ -1,5 +1,5 @@
 # 42Piscine
- 42 Paris Piscine (August 2023), all my exercices in 2023 👨‍💻 !
+ 42 Paris Piscine (August 2023), all my exercices !
 
  ## MY SCORES
 ### C Piscine modules
