@@ -13,14 +13,8 @@
 
 </div>
 
- ## DISCLAIMER
-
-<div align="center">
-
-❗❗YOU ARE HERE TO LEARN, DON'T COPY❗❗
-(⚠️ you can get caught by the BOCAL ☠️)
-
-</div>
+## ❗❗ DISCLAIMER : YOU ARE HERE TO LEARN, DON'T COPY ❗❗
+### (⚠️ you can get caught by the BOCAL ☠️)
 
  ## MY SCORES
 ### C Piscine modules
@@ -73,6 +67,8 @@
 | EXAM03  | ✅       |  90/100    |
 
 </div>
+
+---
 
 <div align="center">
 
