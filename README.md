@@ -8,22 +8,22 @@
 
 | Project                                                   | Tried ? | Finished ? | Final mark |
 | --------------------------------------------------------- | ------- | ---------- | ---------- |
-| [SHELL00](https://github.com/rphlr/42piscine-shell00/)    | ✅      | ✅         | 💯          |
-| [SHELL01](https://github.com/rphlr/42piscine-shell01)     | ✅      | ✅         | 💯          |
-| [C00](https://github.com/rphlr/42piscine-c00)             | ✅      | ✅         | 💯          |
-| [C01](https://github.com/rphlr/42piscine-c01)             | ✅      | ✅         | 💯          |
-| [C02](https://github.com/rphlr/42piscine-c02)             | ✅      | ✅         |  85/100    |
-| [C03](https://github.com/rphlr/42piscine-c03)             | ✅      | ✅         | 💯          |
-| [C04](https://github.com/rphlr/42piscine-c04)             | ✅      | ✅         | 💯          |
-| [C05](https://github.com/rphlr/42piscine-c05)             | ✅      | ✅         |  80/100    |
-| [C06](https://github.com/rphlr/42piscine-c06)             | ✅      | ✅         | 💯          |
-| [C07](https://github.com/rphlr/42piscine-c07)             | ✅      | ✅         |  60/100    |
-| [C08](https://github.com/rphlr/42piscine-c08)             | ✅      | ✅         | 💯          |
-| [C09](https://github.com/rphlr/42piscine-c09)             | ✅      | ✅         | 💯          |
-| [C10](https://github.com/rphlr/42piscine-c10)             | ✅      | ❌         |  ../100    |
-| [C11](https://github.com/rphlr/42piscine-c11)             | ✅      | ✅         | 💯          |
-| [C12](https://github.com/rphlr/42piscine-c12)             | ❌      | ❌         |  ../100    |
-| [C13](https://github.com/rphlr/42piscine-c13)             | ❌      | ❌         |  ../100    |
+| [SHELL00](https://github.com/xmesky/42Piscine/tree/main/shell-00)    | ✅      | ✅         | 💯          |
+| [SHELL01](https://github.com/xmesky/42Piscine/tree/main/shell-01)     | ✅      | ✅         | 💯          |
+| [C00](https://github.com/xmesky/42Piscine/tree/main/c-00)             | ✅      | ✅         | 💯          |
+| [C01](https://github.com/xmesky/42Piscine/tree/main/c-01)             | ✅      | ✅         | 💯          |
+| [C02](https://github.com/xmesky/42Piscine/tree/main/c-02)             | ✅      | ✅         |  85/100    |
+| [C03](https://github.com/xmesky/42Piscine/tree/main/c-03)             | ✅      | ✅         | 💯          |
+| [C04](https://github.com/xmesky/42Piscine/tree/main/c-04)             | ✅      | ✅         | 💯          |
+| [C05](https://github.com/xmesky/42Piscine/tree/main/c-05)             | ✅      | ✅         |  80/100    |
+| [C06](https://github.com/xmesky/42Piscine/tree/main/c-06)             | ✅      | ✅         | 💯          |
+| [C07](https://github.com/xmesky/42Piscine/tree/main/c-07)             | ✅      | ✅         |  60/100    |
+| [C08](https://github.com/xmesky/42Piscine/tree/main/c-08)             | ✅      | ✅         | 💯          |
+| [C09](https://github.com/xmesky/42Piscine/tree/main/c-09)             | ✅      | ✅         | 💯          |
+| [C10](https://github.com/xmesky/42Piscine/tree/main/c-10)             | ✅      | ❌         |  ../100    |
+| [C11](https://github.com/xmesky/42Piscine/tree/main/c-11)             | ❌      | ✅         | 💯          |
+| [C12](https://github.com/xmesky/42Piscine/tree/main/c-12)             | ❌      | ❌         |  ../100    |
+| [C13](https://github.com/xmesky/42Piscine/tree/main/c-13)             | ❌      | ❌         |  ../100    |
 
 </div>
 
