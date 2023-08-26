@@ -1,5 +1,15 @@
-# 42Piscine
+<h1 align="center">Piscine 42</h1>
+
  42 Paris Piscine (August 2023), all my exercices !
+
+
+### Final ranking
+
+<div align="center">
+
+1 / 420
+
+</div>
 
  ## MY SCORES
 ### C Piscine modules
@@ -52,3 +62,5 @@
 | EXAM03  | ✅       |  90/100    |
 
 </div>
+
+This module was done by [xmesky (loup)](https://instagram.com/xmesky).
