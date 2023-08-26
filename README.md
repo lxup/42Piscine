@@ -1,15 +1,15 @@
-<h1 align="center">Piscine 42</h1>
+<h1 align="center">Piscine 42 (Paris) 🏊‍♂️</h1>
 
- 42 Paris Piscine (August 2023), all my exercices !
+ 42 Paris Piscine (August 2023), all my exercices 👨‍💻 !
 
 
 ### Final ranking
 
 <div align="center">
 
-| Final ranking  | Final level |
-| -------------- | ----------- |
-| 1/420          | 11.97%      |
+| 🏅Final ranking  | 🪜Final level |
+| ----------------- | ------------- |
+| 1/420             | 11.97%        |
 
 </div>
 
@@ -66,5 +66,5 @@
 </div>
 
 <div align="center">
-This module was done by [xmesky (loup)](https://instagram.com/xmesky).
+This module was done by [loup](https://instagram.com/xmesky).
 </div>
