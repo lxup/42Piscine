@@ -76,12 +76,12 @@
 
 <div align="center">
 
-| Project | Passed ? | Final mark |
-| ------- | -------- | ---------- |
-| EXAM00  | ✅       |  80/100    |
-| EXAM01  | ✅       |  100/100   |
-| EXAM02  | ✅       |  100/100   |
-| EXAM03  | ✅       |  90/100    |
+| Project     | Passed ? | Final mark |
+| ----------- | -------- | ---------- |
+| EXAM00      | ✅       |  80/100    |
+| EXAM01      | ✅       |  100/100   |
+| EXAM02      | ✅       |  100/100   |
+| FINAL EXAM  | ✅       |  90/100    |
 
 </div>
 
