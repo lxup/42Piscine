@@ -39,3 +39,16 @@
 | [BSQ](https://github.com/xmesky/42Piscine/tree/main/BSQ)                                                  | ✅      | ✅       |  💯    | success (w/ Moulinette) |
 
 </div>
+
+### C Piscine exams
+
+<div align="center">
+
+| Project | Passed ? | Final mark |
+| ------- | -------- | ---------- |
+| EXAM00  | ✅       |  80/100    |
+| EXAM01  | ✅       |  100/100    |
+| EXAM02  | ✅       |  100/100    |
+| EXAM03  | ✅       |  90/100    |
+
+</div>
