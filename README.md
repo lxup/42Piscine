@@ -13,6 +13,15 @@
 
 </div>
 
+ ## DISCLAIMER
+
+<div align="center">
+
+❗❗YOU ARE HERE TO LEARN, DON'T COPY❗❗
+(⚠️ you can get caught by the BOCAL ☠️)
+
+</div>
+
  ## MY SCORES
 ### C Piscine modules
 
@@ -66,5 +75,7 @@
 </div>
 
 <div align="center">
-This module was done by [loup](https://instagram.com/xmesky)
+
+This module was done by [loup](https://instagram.com/xmesky).
+
 </div>
