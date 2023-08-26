@@ -66,5 +66,5 @@
 </div>
 
 <div align="center">
-This module was done by [loup](https://instagram.com/xmesky).
+This module was done by [loup](https://instagram.com/xmesky)
 </div>
