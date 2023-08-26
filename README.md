@@ -29,8 +29,8 @@
 
 ---
 
-###❗❗ DISCLAIMER : YOU ARE HERE TO LEARN, DON'T COPY ❗❗
-###(⚠️ you can get caught by the BOCAL ☠️)
+### ❗❗ DISCLAIMER : YOU ARE HERE TO LEARN, DON'T COPY ❗❗
+### (⚠️ you can get caught by the BOCAL ☠️)
 
 
  ## MY SCORES
