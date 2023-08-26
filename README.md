@@ -1,9 +1,23 @@
-<h1 align="center">Piscine 42 (Paris) 🏊‍♂️</h1>
+<h1 align="center">Piscine 42 (Paris) - August 2023 🏊‍♂️</h1>
 
- 42 Paris Piscine (August 2023), all my exercices 👨‍💻 !
+```
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   42 Piscine (Paris) - August 2023                   :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: lquehec <marvin@42.fr>                     +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/08/01 00:00:00 by lquehec           #+#    #+#             */
+/*   Updated: 2023/08/01 00:00:00 by lquehec          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
+```
 
-### Final ranking
+---
+
+## Final ranking
 
 <div align="center">
 
@@ -13,10 +27,11 @@
 
 </div>
 
-<h2 align="center">
-❗❗ DISCLAIMER : YOU ARE HERE TO LEARN, DON'T COPY ❗❗</br>
-(⚠️ you can get caught by the BOCAL ☠️)
-</h2>
+---
+
+###❗❗ DISCLAIMER : YOU ARE HERE TO LEARN, DON'T COPY ❗❗
+###(⚠️ you can get caught by the BOCAL ☠️)
+
 
  ## MY SCORES
 ### C Piscine modules
